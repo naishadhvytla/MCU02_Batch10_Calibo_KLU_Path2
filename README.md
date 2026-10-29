@@ -35,18 +35,29 @@ With new-to-credit applicants excluded, 0.85 also passes the rule (4.8%) and wou
 
 ---
 
+## Submission documents
+
+All write-ups sit at the top level of the repo:
+
+| Document | What it is |
+| --- | --- |
+| [Batch10_MUC02_KLU_Summary.docx](Batch10_MUC02_KLU_Summary.docx) | Team documentation & insight report |
+| [Batch10_MUC02_KLU_Summary_1Page.docx](Batch10_MUC02_KLU_Summary_1Page.docx) | 1-page submission summary (≤500 words) |
+| [Batch10_MUC02_KLU_Individual_Report_Naishadh_Vytla.docx](Batch10_MUC02_KLU_Individual_Report_Naishadh_Vytla.docx) | Individual report: Naishadh Vytla, Data Analyst |
+| [Batch10_MUC02_KLU_Individual_Report_Raghunandan.docx](Batch10_MUC02_KLU_Individual_Report_Raghunandan.docx) | Individual report: Raghunandan, Insight Analyst |
+| [Batch10_MUC02_KLU_Individual_Report_Pradeepthi.docx](Batch10_MUC02_KLU_Individual_Report_Pradeepthi.docx) | Individual report: Pradeepthi, Model Builder |
+| [Batch10_MUC02_KLU_Individual_Report_Saketh.docx](Batch10_MUC02_KLU_Individual_Report_Saketh.docx) | Individual report: Saketh, Policy Synthesiser |
+
 ## Repository structure
 
 ```
+├── Batch10_MUC02_KLU_Summary.docx              # team documentation & insight report
+├── Batch10_MUC02_KLU_Summary_1Page.docx        # ≤500-word submission summary
+├── Batch10_MUC02_KLU_Individual_Report_*.docx  # one per member (4)
 ├── notebook/
 │   └── Batch10_MUC02_KLU_Notebook.ipynb        # CBIM canvas + Steps 5.1–5.7 (runs top-to-bottom, 0 errors)
 ├── data/
 │   └── MUC02_Credit_PreScreening_Dataset.csv   # 12,000 applications · 19 columns · Apr–Sep 2026
-├── docs/
-│   ├── Batch10_MUC02_KLU_Summary.docx          # Team documentation & insight report
-│   └── Batch10_MUC02_KLU_Summary_1Page.docx    # ≤500-word submission summary
-├── reports/
-│   └── Batch10_MUC02_KLU_Individual_Report_*.docx   # one per member
 ├── deck/
 │   └── Batch10_MUC02_KLU_Presentation.pptx     # 13 slides, Triage walkthrough video on slide 12
 ├── model/
@@ -162,7 +173,7 @@ python app/src/build.py        # reassemble app/index.html
 | **Pradeepthi** | Model & threshold · presentation deck |
 | **Saketh** | Fairness & Credit Policy Briefing · QA · 1-page summary |
 
-Each member's `reports/` document covers their scope, method, findings, business interpretation, what they learned and one limitation.
+Each member's individual report (listed under [Submission documents](#submission-documents)) covers their scope, method, findings, business interpretation, what they learned and one limitation.
 
 ---
 
