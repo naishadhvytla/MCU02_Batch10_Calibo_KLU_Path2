@@ -171,7 +171,7 @@ python app/src/build.py        # reassemble app/index.html
 | **Naishadh Vytla** | Data foundation & cleaning · notebook assembly · Triage web app ([source](https://github.com/naishadhvytla/Triage---Credit-PreScreening-Engine)) |
 | **Raghunandan** ([@raghu203](https://github.com/raghu203)) | Approval drivers & affordability features · chart consistency · team documentation |
 | **Pradeepthi** ([@PradeepthiPathuri](https://github.com/PradeepthiPathuri)) | Model & threshold · presentation deck |
-| **Saketh** | Fairness & Credit Policy Briefing · QA · 1-page summary |
+| **Saketh** ([@klusaketh](https://github.com/klusaketh)) | Fairness & Credit Policy Briefing · QA · 1-page summary |
 
 Each member's individual report (listed under [Submission documents](#submission-documents)) covers their scope, method, findings, business interpretation, what they learned and one limitation.
 
